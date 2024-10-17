@@ -19,3 +19,13 @@ Sebelum menjalankan program ini, pastikan memiliki hal berikut:
    ```bash
    git clone https://github.com/auzy7z/tebak-angka.git
    cd tebak-angka
+
+## Kompilasi Program
+Pastikan Anda telah menginstal MySQL Connector/C++. Gunakan perintah berikut untuk mengkompilasi:
+```bash
+   g++ -o tebak_angka main.cpp -lmysqlcppconn
+```
+
+## Run program
+```bash
+   ./tebak_angka
